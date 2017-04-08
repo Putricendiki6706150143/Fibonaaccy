@@ -22,13 +22,15 @@ public class Fibonanchi {
 //         deret(x);
         total(x);
     }
+    
     private static int fibbonaci(int x){
         if(x>1){
             return fibbonaci(x-1)+fibbonaci(x-2);
         }
         return x;
     }
-    
+    //sudah di ubah
+   
     private static void total(int x){
         int total = 0;
         for (int i = 1; i <= x; i++) {
